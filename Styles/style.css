@@ -1,3 +1,7 @@
+main {
+  padding-top: 3rem;
+}
+
 .bg-image {
     background-image: url(../Imgs/fundo.jpeg);
     background-size: cover;
