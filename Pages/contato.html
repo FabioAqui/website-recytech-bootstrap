@@ -85,8 +85,39 @@
       </nav>
     </header>
     <main>
-      <div class="container">
-        <p>Contato</p>
+      <div class="container my-5">
+        <h1>Contato</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group">
+                        <label for="inputNome">Nome</label>
+                        <input type="text" class="form-control" id="inputNome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">E-mail</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAssunto">Assunto</label>
+                        <input type="text" class="form-control" id="inputAssunto" placeholder="Digite o assunto">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMensagem">Mensagem</label>
+                        <textarea class="form-control" id="inputMensagem" rows="5"
+                                  placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <!-- Informações de contato -->
+            <div class="col-md-4">
+                <h5 class="my-4">Informações de Contato</h5>
+                <p><i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=NUMERODETELEFONE" target="_blank"> (11) 99999-0101</a></p>
+                <p><i class="fas fa-envelope"></i></p>
+            </div>
+        </div>
       </div>
     </main>
   </body>
