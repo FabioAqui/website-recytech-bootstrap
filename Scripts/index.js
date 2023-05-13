@@ -1,4 +1,4 @@
-var words = ['Mais que uma empresa', 'Inovação em reciclagem', 'Paixão pelo meio ambiente', 'Desjo de fazer a mudança'],
+var words = ['Mais que uma empresa', 'Inovação em reciclagem', 'Paixão pelo meio ambiente', 'Desejo de fazer a mudança'],
     part,
     i = 0,
     offset = 0,
