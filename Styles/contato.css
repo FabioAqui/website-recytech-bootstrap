@@ -1,0 +1,25 @@
+.envia {
+    margin: 1em 0;
+    padding: 0.5em 3em;
+}
+
+.item-form {
+    margin: 1em 0;
+}
+
+.icon-edited {
+    font-size: 1.5em;
+    margin-right: 0.6em;
+}
+
+.icon-in-text {
+    font-size: 1.2em;
+}
+
+.mail-edited {
+    color: #0d6efd;
+}
+
+.whats-edited a {
+    text-decoration: none;
+}

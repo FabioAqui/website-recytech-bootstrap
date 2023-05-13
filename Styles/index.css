@@ -2,7 +2,7 @@
     position: relative;
     background-color: black;
     height: calc(100vh - 72px);
-    min-height: 25rem;
+    min-height: 37rem;
     width: 100%;
     overflow: hidden;
   }
@@ -46,7 +46,7 @@
   
   a:hover, a:focus {
     text-decoration: none;
-    color: blue;
+    color: #0d6efd;
   }
   
 
@@ -76,3 +76,9 @@
     width: 3rem;
     height: 3rem;
   }
+
+  
+.icon-footer {
+  font-size: 1em;
+  margin-right: 0.6em;
+}
